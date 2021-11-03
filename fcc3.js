@@ -147,4 +147,6 @@ const myConcat = (arr1, arr2) => {
 
 console.log(myConcat([1, 2], [3, 4, 5]));
 
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
 
