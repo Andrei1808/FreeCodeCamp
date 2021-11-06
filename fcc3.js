@@ -147,6 +147,69 @@ const myConcat = (arr1, arr2) => {
 
 console.log(myConcat([1, 2], [3, 4, 5]));
 
-var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
+const myStr = "This is the start." + " This is the end."; // Change this line
+
+let myStr = "This is the first sentence.";
+myStr += " This is the second sentence."
+
+// Only change code below this line
+const myName = "Andrei";
+const myStr = "My name is " + myName + " and I am well!";
+
+// Change code below this line
+const someAdjective = "perfectly!";
+let myStr = "Learning to code is ";
+myStr += someAdjective;
+
+// Only change code below this line
+const increment = (number, value = 1) => number + value;
+console.log(increment(5, 2));
+console.log(increment(5, 1))
+// Only change code above this line
+
+// Setup
+let lastNameLength = 0;
+const lastName = "Lovelace";
+
+// Only change code below this line
+lastNameLength = lastName.length;
+// Setup
+let firstLetterOfLastName = "";
+const lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0]; // Change this line
+
+// Setup
+let myStr = "Jello World";
+
+// Only change code below this line
+myStr = "Hello World"; // Change this line
+// Only change code above this line
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const thirdLetterOfLastName = lastName[2]; // Change this line
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const lastLetterOfLastName = lastName[lastName.length - 1]; // Change this line
+
+// Setup
+const lastName = "Lovelace";
+
+// Only change code below this line
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change this li
+
+// Only change code below this line
+const myArray = ["arr", 0];
+
 
 
