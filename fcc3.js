@@ -211,5 +211,92 @@ const secondToLastLetterOfLastName = lastName[lastName.length - 2]; // Change th
 // Only change code below this line
 const myArray = ["arr", 0];
 
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]);
+// Only change code below this line
+
+const myList = [["eggs", 10], ["bread", 1], ["Cola", 3], ["Milk", 1], ["Meat", 1]];
+
+function reusableFunction(){
+    console.log("Hi World");
+}
+reusableFunction();
+
+function functionWithArgs(a, b){
+    console.log(a + b);
+}
+functionWithArgs(1, 2);
+
+function timesFive(x){
+    return x * 5;
+}
+const answ = timesFive(3);
+
+// Declare the myGlobal variable below this line
+
+
+function fun1() {
+    // Assign 5 to oopsGlobal Here
+
+    oopsGlobal = 5;
+
+}
+let myGlobal = 10;
+
+// Only change code above this line
+
+function fun2() {
+    var output = "";
+    if (typeof myGlobal != "undefined") {
+        output += "myGlobal: " + myGlobal;
+    }
+    if (typeof oopsGlobal != "undefined") {
+        output += " oopsGlobal: " + oopsGlobal;
+    }
+    console.log(output);
+}
+
+function myLocalScope() {
+    // Only change code below this line
+    const myVar = 9;
+    console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+    // Only change code below this line
+    const outerWear = "sweater";
+    // Only change code above this line
+    return outerWear;
+}
+
+myOutfit();
+
+// Setup
+let sum = 0;
+
+function addThree() {
+    sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+    sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+
 
 
